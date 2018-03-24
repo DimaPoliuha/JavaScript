@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lab5</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+</head>
+
+<body>
+    <script src="scripts/script.js" defer></script>
+<!--1-->
+    <p></p>
+    <p></p>
+<!--2-->
+    <div id="insert">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+<!--3-->
+    <img id="myimg" src="images/orange.ico" alt="" />
+<!--4-->
+    <div id="demo">Узнать время</div>
+<!--5-->
+    <div id="demo1">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+    </div>
+<!--6-->
+    <div id="container">
+        <div id="box"> </div>
+    </div>
+    <br>
+    <button id="demo2">ПОМЕНЯТЬ ЦВЕТ ФОНА</button>
+    <button id="demo3">ПОМЕНЯТЬ ЦВЕТ КВАДРАТА</button>
+    <button id="demo4">Вернуть в начальное положение</button>
+    <button id="demo5">Остановить при первом запуске</button>
+    <button id="demo6">Добавить скорость</button>
+    <br>
+    <p></p>
+<!--7-->
+    <h1>НЕ КРИЧИ</h1>
+    <input type="text" id="name" onchange="change()">
+
+    <br><br>
+    <p></p>
+<!--8-->
+    <div>
+        <button onclick="prev()"> Prev </button>
+        <img id="slider" src="images/berry.png" 
+        width="200px" height="200px"/>
+        <button onclick="next()"> Next </button>
+    </div>
+<!--9-->
+<br><br>
+<H1>АВТОРИЗАЦИЯ</H1>
+    <form onsubmit="return validate()" method="post">
+        Number: <input type="text" name="num1" id="num1" />
+        <br />
+        Repeat: <input type="text" name="num2" id="num2" />
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>

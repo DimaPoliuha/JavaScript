@@ -1,0 +1,1 @@
+var student = confirm("You are student?");

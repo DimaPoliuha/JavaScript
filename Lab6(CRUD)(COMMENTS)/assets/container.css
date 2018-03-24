@@ -1,0 +1,779 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Pacifico");
+/*Import*/
+/*Grid*/
+/*Создаем селекторы колонок*/
+/*Генератор сетки*/
+.col-sm-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.col-md-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.col-lg-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.col-sm-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.col-md-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.col-lg-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.col-sm-3 {
+  width: 25%;
+  float: left;
+}
+.col-md-3 {
+  width: 25%;
+  float: left;
+}
+.col-lg-3 {
+  width: 25%;
+  float: left;
+}
+.col-sm-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.col-md-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.col-lg-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.col-sm-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.col-md-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.col-lg-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.col-sm-6 {
+  width: 50%;
+  float: left;
+}
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+.col-lg-6 {
+  width: 50%;
+  float: left;
+}
+.col-sm-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.col-md-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.col-lg-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.col-sm-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.col-md-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.col-lg-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.col-sm-9 {
+  width: 75%;
+  float: left;
+}
+.col-md-9 {
+  width: 75%;
+  float: left;
+}
+.col-lg-9 {
+  width: 75%;
+  float: left;
+}
+.col-sm-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.col-md-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.col-lg-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.col-sm-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.col-md-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.col-lg-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.col-sm-12 {
+  width: 100%;
+  float: left;
+}
+.col-md-12 {
+  width: 100%;
+  float: left;
+}
+.col-lg-12 {
+  width: 100%;
+  float: left;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Desktop*/
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 15px;
+    width: 1170px;
+  }
+  .row {
+    margin: -15px;
+  }
+  /*Header*/
+  header {
+    height: 65px;
+  }
+  .logo-head {
+    height: 60px;
+    top: 2.5px;
+  }
+  .title-head {
+    font-size: 35px;
+    top: -2.5px;
+    margin-left: 80px;
+  }
+  .nav-size {
+    width: 580px;
+  }
+  .text-head {
+    font-size: 19px;
+    margin-top: 20.5px;
+  }
+  .phone {
+    margin: -23px 0 0 1044px;
+    height: 22px;
+  }
+  .email {
+    margin: -26px 0 0 1110px;
+    height: 30px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 65px 0 0 0;
+    min-width: 1170px;
+  }
+  .first-block h1 {
+    top: -80px;
+  }
+  /*Second*/
+  .second-block {
+    top: -45px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+  }
+  .col {
+    width: 33.33333333%;
+    padding: 45px 15px;
+  }
+  .offer {
+    height: 250px;
+  }
+  .offer img {
+    height: 250px;
+  }
+  .back-text {
+    height: 60px;
+    width: 360.999px;
+  }
+  .back-text h2 {
+    font-size: 22px;
+    text-align: left;
+    margin: 17px 0 0 25px;
+  }
+  .back-text h3 {
+    text-align: right;
+    margin: -26px 25px 0 0;
+  }
+  /*Footer*/
+  footer {
+    margin-top: -47px;
+  }
+  .line {
+    margin: 20.5px 0 20.5px 0;
+  }
+  .logo-footer {
+    height: 80px;
+    margin-top: -113px;
+  }
+  .title-footer {
+    font-size: 38px;
+    margin-top: -112px;
+    margin-left: 105px;
+  }
+  .nav-footer h4 {
+    margin: 0 0 8px 0;
+  }
+  .social {
+    top: -100px;
+  }
+  .social img {
+    height: 45px;
+    margin-left: 10px;
+  }
+}
+/*Laptop*/
+@media (max-width: 1200px) and (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 10px;
+    width: 970px;
+  }
+  .row {
+    margin: -10px;
+  }
+  /*Header*/
+  header {
+    height: 60px;
+  }
+  .logo-head {
+    height: 52px;
+    top: 4px;
+  }
+  .title-head {
+    font-size: 29px;
+    top: 2px;
+    margin-left: 65px;
+  }
+  .nav-size {
+    width: 500px;
+  }
+  .text-head {
+    font-size: 18px;
+    margin-top: 18px;
+  }
+  .phone {
+    margin: -19px 0 0 850px;
+    height: 18px;
+  }
+  .email {
+    margin: -22px 0 0 910px;
+    height: 26px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 60px 0 0 0;
+    min-width: 970px;
+  }
+  .first-block h1 {
+    top: -70px;
+  }
+  /*Second*/
+  .second-block {
+    top: -40px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  .col {
+    width: 50%;
+    padding: 39px 10px;
+  }
+  .offer {
+    width: 465px;
+    height: 250px;
+  }
+  .offer img {
+    width: 465px;
+  }
+  .back-text {
+    height: 55px;
+    width: 465px;
+  }
+  .back-text h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 15px 0 0 25px;
+  }
+  .back-text h3 {
+    font-size: 18px;
+    text-align: right;
+    margin: -22px 25px 0 0;
+  }
+  /*Footer*/
+  footer {
+    margin-top: -40px;
+  }
+  .line {
+    margin: 20.5px 0 20.5px 0;
+  }
+  .logo-footer {
+    height: 80px;
+    margin-top: -113px;
+  }
+  .title-footer {
+    font-size: 28px;
+    margin-top: -100px;
+    margin-left: 105px;
+  }
+  .nav-footer h4 {
+    margin: 0 0 8px 0;
+  }
+  .social {
+    top: -100px;
+  }
+  .social img {
+    height: 45px;
+    margin-left: 10px;
+  }
+}
+/*Tablet*/
+@media (max-width: 992px) and (min-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 10px;
+    width: 750px;
+  }
+  .row {
+    margin: -10px;
+  }
+  /*Header*/
+  header {
+    height: 55px;
+  }
+  .logo-head {
+    height: 45px;
+    top: 5px;
+  }
+  .title-head {
+    font-size: 24px;
+    top: 4px;
+    margin-left: 55px;
+  }
+  .nav-size {
+    width: 390px;
+  }
+  .text-head {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  .phone {
+    margin: -18px 0 0 645px;
+    height: 15px;
+  }
+  .email {
+    margin: -21px 0 0 695px;
+    height: 23px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 55px 0 0 0;
+    min-width: 750px;
+  }
+  .first-block h1 {
+    top: -65px;
+  }
+  /*Second*/
+  .second-block {
+    margin-top: -40px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  .col {
+    width: 50%;
+    padding: 39px 10px;
+  }
+  .offer {
+    width: 100%;
+    height: 200px;
+  }
+  .offer img {
+    width: 465px;
+  }
+  .back-text {
+    height: 55px;
+    width: 355.6px;
+  }
+  .back-text h2 {
+    font-size: 19px;
+    text-align: left;
+    margin: 15px 0 0 25px;
+  }
+  .back-text h3 {
+    font-size: 17px;
+    text-align: right;
+    margin: -22px 25px 0 0;
+  }
+  /*Footer*/
+  footer {
+    display: none;
+  }
+}
+/*Mobile*/
+@media (max-width: 767px) {
+  h1 {
+    font-size: 23px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .container {
+    width: 100%;
+  }
+  /*Header*/
+  header {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-head {
+    display: none;
+  }
+  .title-head {
+    font-size: 27px;
+    top: -3px;
+    margin-left: -32px;
+  }
+  .nav-size {
+    display: none;
+  }
+  .text-head {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  .phone {
+    display: none;
+  }
+  .email {
+    display: none;
+  }
+  /*Menu*/
+  .menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+  }
+  .menu .list-menu {
+    position: relative;
+    margin-top: 7px;
+    height: 370px;
+    width: 770px;
+    background: #efeff4;
+  }
+  .menu .list-menu a {
+    position: absolute;
+    color: #5a5a5a;
+    margin-left: 15px;
+  }
+  .menu .list-menu a:hover {
+    color: #00acc1;
+  }
+  .razd1 {
+    height: 1px;
+    width: 770px;
+    background: #5a5a5a;
+    margin-left: -40px;
+    margin-bottom: 8px;
+  }
+  .razd {
+    height: 1px;
+    width: 770px;
+    background: #5a5a5a;
+    margin-left: -40px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  .logo-menu {
+    margin: auto;
+  }
+  .logo-menu a {
+    position: absolute;
+    padding: 30px 70px;
+  }
+  .logo-menu img {
+    height: 70px;
+  }
+  #button-menu {
+    display: none;
+  }
+  #button-menu + label:before {
+    content: '\f0c9';
+    font-family: 'FontAwesome';
+    font-size: 23px;
+    margin-left: 15px;
+  }
+  #button-menu:checked + label:before {
+    content: '\f00d';
+    color: #5a5a5a;
+  }
+  #button-menu + label {
+    display: inline-block;
+  }
+  #button-menu + label + .list-menu {
+    display: none;
+  }
+  #button-menu:checked + label + .list-menu {
+    display: block;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 45px 0 0 0;
+    min-width: 500px;
+  }
+  .first-block h1 {
+    top: -60px;
+  }
+  /*Second*/
+  .second-block {
+    top: -35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .col {
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .offer {
+    width: 100%;
+    height: 20%;
+  }
+  .offer img {
+    width: 100%;
+    height: 20%;
+    transition: none;
+  }
+  .offer img:hover {
+    transform: none;
+  }
+  .back-text {
+    position: relative;
+    margin-top: -5px;
+    height: 50px;
+    width: 100%;
+  }
+  .back-text h2 {
+    font-size: 18px;
+    text-align: left;
+    margin: 14px 0 0 25px;
+  }
+  .back-text h3 {
+    font-size: 17px;
+    text-align: right;
+    margin: -20px 25px 0 0;
+  }
+  /*Footer*/
+  footer {
+    margin-top: -110px;
+  }
+  .line {
+    margin: 20.5px 0 20.5px 0;
+  }
+  .logo-footer {
+    height: 80px;
+    margin-top: -113px;
+  }
+  .title-footer {
+    font-size: 38px;
+    margin-top: -112px;
+    margin-left: 105px;
+  }
+  .nav-footer h4 {
+    margin: 0 0 8px 0;
+  }
+  .social {
+    top: -100px;
+  }
+  .social img {
+    height: 45px;
+    margin-left: 10px;
+  }
+}
+/*Less*/
+.shadow {
+  box-shadow: 0px 0.7px 0.7px 0px #5a5a5a;
+}
+/*Font*/
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: SF UI Display;
+  font-weight: 300;
+  text-decoration: none;
+  color: #5a5a5a;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1 {
+  font-weight: 200;
+}
+/*Container*/
+.container {
+  margin: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Header*/
+header {
+  background: #efeff4;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 0.7px 0.7px 0px #5a5a5a;
+}
+.logo-head {
+  position: absolute;
+}
+.title-head {
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  color: #00bcd4;
+}
+.title-head:hover {
+  color: #00acc1;
+  transition: all 0.15s ease-out;
+}
+.nav-size {
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+}
+.text-head {
+  position: relative;
+  float: left;
+}
+.text-head:hover {
+  color: #00acc1;
+  transition: all 0.15s ease-out;
+}
+.phone,
+.email {
+  position: absolute;
+}
+/*Menu*/
+.menu {
+  display: none;
+}
+/*First block*/
+.first-block img {
+  max-width: 100%;
+}
+.first-block h1 {
+  position: relative;
+  color: #efeff4;
+}
+/*Second*/
+.second-block {
+  position: relative;
+  width: 100%;
+  background: #00bcd4;
+  box-shadow: 0px 0.7px 0.7px 0px #5a5a5a;
+  z-index: 1;
+}
+.col {
+  float: left;
+  overflow: hidden;
+}
+.offer {
+  position: relative;
+  overflow: hidden;
+}
+.offer img {
+  transition: all 0.3s ease-out;
+}
+.offer img:hover {
+  transform: scale(1.05);
+}
+.back-text {
+  position: absolute;
+  background: #efeff4;
+  box-shadow: 0px 0.7px 0.7px 0px #5a5a5a;
+}
+.back-text h2 {
+  text-align: left;
+}
+.back-text h3 {
+  text-align: right;
+}
+/*Footer*/
+footer {
+  position: relative;
+  width: 100%;
+  background: #efeff4;
+}
+.line {
+  background: #5a5a5a;
+  width: 100%;
+  height: 1px;
+}
+.logo-footer {
+  position: absolute;
+}
+.title-footer {
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  color: #00bcd4;
+}
+.title-footer:hover {
+  color: #00acc1;
+  transition: all 0.15s ease-out;
+}
+.nav-footer h4:hover {
+  color: #00acc1;
+  transition: all 0.15s ease-out;
+}
+.social {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}

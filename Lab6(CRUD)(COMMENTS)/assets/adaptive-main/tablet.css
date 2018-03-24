@@ -1,0 +1,152 @@
+/*Tablet*/
+@media (max-width: 992px) and (min-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 10px;
+    width: 750px;
+  }
+  .row {
+    margin: -10px;
+  }
+  /*Header*/
+  header {
+    height: 55px;
+  }
+  .logo-head {
+    height: 45px;
+    top: 5px;
+  }
+  .title-head {
+    font-size: 24px;
+    top: 4px;
+    margin-left: 55px;
+  }
+  .nav-size {
+    width: 390px;
+  }
+  .text-head {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  .phone {
+    margin: -18px 0 0 645px;
+    height: 15px;
+  }
+  .email {
+    margin: -21px 0 0 695px;
+    height: 23px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 55px 0 0 0;
+  }
+  .first-block h1 {
+    top: -65px;
+  }
+  /*Second block*/
+  .second-block {
+    margin-top: -5px;
+  }
+  .second-block h3 {
+    font-size: 15px;
+  }
+  .title-second {
+    margin: 50px 0 25px;
+  }
+  .icons-second-size {
+    margin: auto;
+    width: 600px;
+    margin-top: 45px;
+  }
+  .icon-comm {
+    position: relative;
+    height: 90px;
+    margin-top: 4px;
+  }
+  .icon-cloud {
+    height: 115px;
+    margin-top: -18px;
+  }
+  .icon-earth {
+    height: 85px;
+  }
+  .text-second {
+    margin: auto;
+    width: 660px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+  .text-second h3 {
+    font-size: 16px;
+  }
+  /*Third block*/
+  .third-block {
+    padding-bottom: 100px;
+  }
+  .title-third {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .offer-main {
+    width: 945px;
+    height: 400px;
+  }
+  .offer-main-text {
+    margin-top: -10px;
+    height: 65px;
+    width: 740px;
+  }
+  .offer-main-text h2 {
+    margin: 18px 0 0 25px;
+  }
+  .offer-main-text h3 {
+    margin: -39px 25px 0 0;
+  }
+  .offer-main-text h4 {
+    margin: 10px 25px 0 0;
+  }
+  .col {
+    width: 50%;
+    padding: 3px 15px;
+  }
+  .offer {
+    height: 250px;
+    margin-top: 88px;
+  }
+  .offer img {
+    height: 250px;
+  }
+  .offer-text {
+    height: 55px;
+    width: 345px;
+    margin-top: -10px;
+  }
+  .offer-text h2 {
+    font-size: 20px;
+    margin: 17px 0 0 25px;
+  }
+  .offer-text h3 {
+    margin: -33px 25px 0 0;
+    font-size: 17px;
+  }
+  .offer-text h4 {
+    margin: 0px 25px 0 0;
+    font-size: 15px;
+  }
+  /*Fourth block*/
+  .fourth-text {
+    margin-top: -350px;
+    padding: 25px 0 0 25px;
+  }
+  .fourth-block {
+    position: relative;
+    top: -350px;
+  }
+  /*Footer*/
+  footer {
+    display: none;
+  }
+}

@@ -1,0 +1,193 @@
+/*Import*/
+@import "makegrid.less";
+@import "clearfix.less";
+@import "adaptive-container/desktop.less";
+@import "adaptive-container/laptop.less";
+@import "adaptive-container/tablet.less";
+@import "adaptive-container/mobile.less";
+
+/*Less*/
+@white: #efeff4;
+@gray: #5a5a5a;
+@blue: #00bcd4;
+@blue-hover: #00acc1;
+.shadow{
+    box-shadow: 0px 0.7px 0.7px 0px @gray;
+}
+
+/*Font*/
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Pacifico");
+
+*{
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: SF UI Display;
+	font-weight: 300;
+	text-decoration: none;
+	color: @gray;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3{
+	text-align: center;
+}
+
+h1{
+	font-weight: 200;
+}
+
+/*Container*/
+
+.container{
+    margin: auto;
+}
+
+.row{
+    .clearfix;
+}
+
+/*Header*/
+
+header {
+    background: @white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    .shadow;
+}
+
+.logo-head{
+    position: absolute;
+}
+
+.title-head{
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    color: @blue;
+    &:hover{
+        color: @blue-hover;
+        transition: all 0.15s ease-out;
+    }
+}
+
+.nav-size{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.text-head{
+    position: relative;
+    float: left;
+    &:hover{
+        color: @blue-hover;
+        transition: all 0.15s ease-out;
+    }
+}
+
+.phone, .email{
+    position: absolute;
+}
+
+
+/*Menu*/
+
+.menu{
+    display: none;
+}
+
+/*First block*/
+
+.first-block{
+    img{
+        max-width: 100%;
+    }
+    h1{
+        position: relative;
+        color: @white;
+    }
+}
+
+/*Second*/
+
+.second-block{
+    position: relative;
+    width: 100%;
+    background: @blue;
+    .shadow;
+    z-index: 1;
+}
+
+.col{
+    float: left;
+    overflow: hidden;
+}
+
+.offer{
+    position: relative;
+    overflow: hidden;
+    img {
+ 		transition: all 0.3s ease-out;
+		&:hover{
+			transform: scale(1.05);
+		}
+	}
+}
+
+.back-text{
+    position: absolute;
+    background: @white;
+    .shadow;
+	h2{
+		text-align: left;
+	}
+	h3{
+		text-align: right;
+	}
+}
+
+/*Footer*/
+
+footer{
+	position: relative;
+	width: 100%;
+	background: @white;
+}
+
+.line{
+	background: @gray;
+	width: 100%;
+	height: 1px;
+}
+
+.logo-footer{
+	position: absolute;
+}
+
+.title-footer{
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	color: @blue;
+	&:hover{
+		color: @blue-hover;
+		transition: all 0.15s ease-out;
+	}
+}
+
+.nav-footer{
+	h4{
+		&:hover{
+			color: @blue-hover;
+			transition: all 0.15s ease-out;
+		}
+	}
+}
+
+.social{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}

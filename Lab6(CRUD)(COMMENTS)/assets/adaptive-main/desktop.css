@@ -1,0 +1,166 @@
+/*Desktop*/
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 15px;
+    width: 1170px;
+  }
+  .row {
+    margin: -15px;
+  }
+  /*Header*/
+  header {
+    height: 65px;
+  }
+  .logo-head {
+    height: 60px;
+    top: 2.5px;
+  }
+  .title-head {
+    font-size: 35px;
+    top: -2.5px;
+    margin-left: 80px;
+  }
+  .nav-size {
+    width: 580px;
+  }
+  .text-head {
+    font-size: 19px;
+    margin-top: 20.5px;
+  }
+  .phone {
+    margin: -23px 0 0 1044px;
+    height: 22px;
+  }
+  .email {
+    margin: -26px 0 0 1110px;
+    height: 30px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 65px 0 0 0;
+  }
+  .first-block h1 {
+    top: -80px;
+  }
+  /*Second block*/
+  .second-block {
+    margin-top: -5px;
+  }
+  .title-second {
+    margin: 75px 0 30px;
+  }
+  .icons-second-size {
+    margin: auto;
+    width: 970px;
+    margin-top: 45px;
+  }
+  .icon-comm {
+    position: relative;
+    height: 145px;
+    margin-top: 4px;
+  }
+  .icon-cloud {
+    height: 178px;
+    margin-top: -10px;
+  }
+  .icon-earth {
+    height: 140px;
+  }
+  .text-second {
+    margin: auto;
+    width: 1015px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+  }
+  /*Third block*/
+  .third-block {
+    padding-bottom: 100px;
+  }
+  .title-third {
+    margin-top: 75px;
+    margin-bottom: 60px;
+  }
+  .offer-main {
+    width: 1140px;
+    height: 600px;
+  }
+  .offer-main-text {
+    height: 85px;
+    width: 1140px;
+  }
+  .offer-main-text h2 {
+    margin: 26px 0 0 25px;
+  }
+  .offer-main-text h3 {
+    margin: -39px 25px 0 0;
+  }
+  .offer-main-text h4 {
+    margin: 10px 25px 0 0;
+  }
+  .col {
+    width: 33.33333333%;
+    padding: 45px 15px;
+  }
+  .offer {
+    height: 250px;
+    margin-top: 83px;
+  }
+  .offer img {
+    height: 250px;
+  }
+  .offer-text {
+    height: 70px;
+    width: 360px;
+  }
+  .offer-text h2 {
+    margin: 19px 0 0 25px;
+  }
+  .offer-text h3 {
+    margin: -40px 25px 0 0;
+  }
+  .offer-text h4 {
+    margin: 10px 25px 0 0;
+  }
+  /*Fourth block*/
+  .fourth-text {
+    padding: 25px 0 0 25px;
+  }
+  /*Fifth block*/
+  .fifth-block {
+    padding-bottom: 100px;
+  }
+  .title-fifth {
+    margin-top: 75px;
+    margin-bottom: 60px;
+  }
+  /*Footer*/
+  footer {
+    margin-top: -47px;
+  }
+  .line {
+    margin: 20.5px 0 20.5px 0;
+  }
+  .logo-footer {
+    height: 80px;
+    margin-top: -113px;
+  }
+  .title-footer {
+    font-size: 38px;
+    margin-top: -112px;
+    margin-left: 105px;
+  }
+  .nav-footer h4 {
+    margin: 0 0 8px 0;
+  }
+  .social {
+    top: -100px;
+  }
+  .social img {
+    height: 45px;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,169 @@
+/*Laptop*/
+@media (max-width: 1200px) and (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 10px;
+    width: 970px;
+  }
+  .row {
+    margin: -10px;
+  }
+  /*Header*/
+  header {
+    height: 60px;
+  }
+  .logo-head {
+    height: 52px;
+    top: 4px;
+  }
+  .title-head {
+    font-size: 29px;
+    top: 2px;
+    margin-left: 65px;
+  }
+  .nav-size {
+    width: 500px;
+  }
+  .text-head {
+    font-size: 18px;
+    margin-top: 18px;
+  }
+  .phone {
+    margin: -19px 0 0 850px;
+    height: 18px;
+  }
+  .email {
+    margin: -22px 0 0 910px;
+    height: 26px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 60px 0 0 0;
+  }
+  .first-block h1 {
+    top: -70px;
+  }
+  /*Second block*/
+  .second-block {
+    margin-top: -5px;
+  }
+  .second-block h3 {
+    font-size: 17px;
+  }
+  .title-second {
+    margin: 75px 0 30px;
+  }
+  .icons-second-size {
+    margin: auto;
+    width: 840px;
+    margin-top: 45px;
+  }
+  .icon-comm {
+    position: relative;
+    height: 117px;
+    margin-top: 4px;
+  }
+  .icon-cloud {
+    height: 155px;
+    margin-top: -18px;
+  }
+  .icon-earth {
+    height: 115px;
+  }
+  .text-second {
+    margin: auto;
+    width: 875px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+  }
+  .text-second h3 {
+    font-size: 16px;
+  }
+  /*Third block*/
+  .third-block {
+    padding-bottom: 100px;
+  }
+  .title-third {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .offer-main {
+    width: 945px;
+    height: 600px;
+  }
+  .offer-main-text {
+    margin-top: -40px;
+    height: 85px;
+    width: 945px;
+  }
+  .offer-main-text h2 {
+    margin: 26px 0 0 25px;
+  }
+  .offer-main-text h3 {
+    margin: -39px 25px 0 0;
+  }
+  .offer-main-text h4 {
+    margin: 10px 25px 0 0;
+  }
+  .col {
+    width: 33.33333333%;
+    padding: 3px 15px;
+  }
+  .offer {
+    height: 250px;
+    margin-top: 83px;
+  }
+  .offer img {
+    height: 250px;
+  }
+  .offer-text {
+    height: 70px;
+    width: 293px;
+    margin-top: -10px;
+  }
+  .offer-text h2 {
+    font-size: 20px;
+    margin: 23px 0 0 25px;
+  }
+  .offer-text h3 {
+    margin: -37px 25px 0 0;
+    font-size: 18px;
+  }
+  .offer-text h4 {
+    margin: 10px 25px 0 0;
+    font-size: 15px;
+  }
+  /*Fourth block*/
+  .fourth-text {
+    padding: 25px 0 0 25px;
+  }
+  /*Footer*/
+  footer {
+    margin-top: -40px;
+  }
+  .line {
+    margin: 20.5px 0 20.5px 0;
+  }
+  .logo-footer {
+    height: 80px;
+    margin-top: -113px;
+  }
+  .title-footer {
+    font-size: 28px;
+    margin-top: -100px;
+    margin-left: 105px;
+  }
+  .nav-footer h4 {
+    margin: 0 0 8px 0;
+  }
+  .social {
+    top: -100px;
+  }
+  .social img {
+    height: 45px;
+    margin-left: 10px;
+  }
+}

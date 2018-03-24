@@ -1,0 +1,35 @@
+/*Grid*/
+
+@breakpoints:      768px, 992px, 1200px;
+@container-widths: 750px, 970px, 1170px;
+@prefixes:            sm,    md,     lg;
+@column-count:                       12;
+
+/*Создаем селекторы колонок*/
+.generate-class(@j, @i: 1) when (@i =< length(@prefixes)) {
+
+    //Получаем элемент списка
+    @prefix: extract(@prefixes, @i);
+
+    //Название и наполнение селектора
+    .col-@{prefix}-@{j} {
+        width: @j * (100% / @column-count);
+        float: left;
+    }
+
+    //Рекурсивный вызов
+    .generate-class(@j, @i + 1);
+}
+
+/*Генератор сетки*/
+.make-grid(@j: 1) when (@j =< @column-count) {
+
+    // Вызываем генератор селекторов колонок
+    .generate-class(@j);
+
+    //Рекурсивный вызов
+    .make-grid(@j + 1);
+}
+
+//Вызываем генератор сетки
+.make-grid();

@@ -1,0 +1,145 @@
+/*Font*/
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Roboto;
+  font-weight: 300;
+  text-decoration: none;
+  color: #5a5a5a;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #1978af;
+}
+h1 {
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 800;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+/*Container*/
+.container {
+  margin: auto;
+}
+#container {
+  margin: auto;
+  width: 1170px;
+}
+.col {
+  width: 370px;
+  padding: 45px 15px;
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Fifth block*/
+.fifth-block {
+  position: relative;
+  width: 100%;
+  
+  padding-bottom: 100px;
+  top: -5px;
+}
+.fifth-block .tx {
+  height: 400px;
+  padding: 20px;
+  background: #f3f2f2;
+  overflow-y: hidden;
+}
+.fifth-block h4 {
+  margin: -3px 0 0;
+}
+.fifth-block h5 {
+  margin: -18px 0 0 160px;
+}
+.fifth-block h2 {
+  margin: 20px 0;
+}
+.fifth-block h3 {
+  text-align: left;
+  position: relative;
+}
+.title-fifth {
+  color: #efeff4;
+  margin-bottom: 20px;
+  margin-top: 75px;
+  margin-bottom: 60px;
+}
+input[type=button] {
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-del {
+  position: relative;
+  /*background: url(../images/delete.png) no-repeat top;*/
+  background-color: #e9250c;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+  right: -295px;
+  top: -120px;
+}
+.btn-edit {
+  /*background: url(../images/edit.png) no-repeat top;*/
+  background-color: #f38739;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  right: -250px;
+  top: -120px;
+}
+.btn-add {
+  /*background: url(../images/add.png) no-repeat top;*/
+  background-color: #7dd634;
+  background-size: 32px;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  left: 20px;
+  top: 0;
+}
+
+#txtN {
+  position: relative;
+  top: -130px;
+  left: 50px;
+  width: 210px;
+}
+#txtTt {
+  position: relative;
+  top: -80px;
+  left: 50px;
+  width: 210px;
+  height: 30px;
+}
+#txtTxt {
+  position: relative;
+  top: -40px;
+  left: 50px;
+  width: 210px;
+  height: 150px;
+}
+
+.tx {
+  max-width: 350px;
+}

@@ -1,0 +1,105 @@
+/*Desktop*/
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+  /*Container*/
+  .container {
+    padding: 0 15px;
+    width: 1170px;
+  }
+  .row {
+    margin: -15px;
+  }
+  /*Header*/
+  header {
+    height: 65px;
+  }
+  .logo-head {
+    height: 60px;
+    top: 2.5px;
+  }
+  .title-head {
+    font-size: 35px;
+    top: -2.5px;
+    margin-left: 80px;
+  }
+  .nav-size {
+    width: 580px;
+  }
+  .text-head {
+    font-size: 19px;
+    margin-top: 20.5px;
+  }
+  .phone {
+    margin: -23px 0 0 1044px;
+    height: 22px;
+  }
+  .email {
+    margin: -26px 0 0 1110px;
+    height: 30px;
+  }
+  /*First block*/
+  .first-block img {
+    padding: 65px 0 0 0;
+    min-width: 1170px;
+  }
+  .first-block h1 {
+    top: -80px;
+  }
+  /*Second*/
+  .second-block {
+    top: -45px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+  }
+  .col {
+    width: 33.33333333%;
+    padding: 45px 15px;
+  }
+  .offer {
+    height: 250px;
+  }
+  .offer img {
+    height: 250px;
+  }
+  .back-text {
+    height: 60px;
+    width: 360.999px;
+  }
+  .back-text h2 {
+    font-size: 22px;
+    text-align: left;
+    margin: 17px 0 0 25px;
+  }
+  .back-text h3 {
+    text-align: right;
+    margin: -26px 25px 0 0;
+  }
+  /*Footer*/
+  footer {
+    margin-top: -47px;
+  }
+  .line {
+    margin: 20.5px 0 20.5px 0;
+  }
+  .logo-footer {
+    height: 80px;
+    margin-top: -113px;
+  }
+  .title-footer {
+    font-size: 38px;
+    margin-top: -112px;
+    margin-left: 105px;
+  }
+  .nav-footer h4 {
+    margin: 0 0 8px 0;
+  }
+  .social {
+    top: -100px;
+  }
+  .social img {
+    height: 45px;
+    margin-left: 10px;
+  }
+}
